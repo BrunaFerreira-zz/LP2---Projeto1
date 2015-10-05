@@ -1,0 +1,83 @@
+CREATE TABLE cliente(
+    id_cliente INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    nomeCliente VARCHAR(50),
+    email VARCHAR(30),
+    telefone VARCHAR(30),
+    CPF VARCHAR(15),
+    endereco VARCHAR(100),
+    usuario VARCHAR(15),
+    senha VARCHAR(10)
+);
+
+CREATE TABLE boleto(
+    id_boleto INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    dataVencimento DATE(),
+    numeroBoleto NUMERIC(20)
+);
+
+CREATE TABLE cartaoPag(
+    id_cartaoPag INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    tipoCartao VARCHAR(10)
+);
+
+CREATE TABLE despacho(
+    id_despacho INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    codLocalizador  NUMERIC(20),
+    horaEnvio TIME(),
+    dataEnvio  DATE(),
+    previsaoEntrega DATE()
+);
+
+CREATE TABLE estoque(
+    id_estoque INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    qntItem NUMERIC(1000000),
+    enderecoEstoque VARCHAR(50)
+);
+
+CREATE TABLE item(
+    id_ item INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    codigoItem NUMERIC(10),
+   precoItem NUMERIC(100),
+   descricaoItem VARCHAR(200)
+);
+
+CREATE TABLE livro(
+    id_livro INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    numeroSerie NUMERIC(20).
+    ano NUMERIC(4),
+    edicao (10),
+   titulo VARCHAR(100),
+   autor VARCHAR(200),
+   editora VARCHAR(50),
+   genero VARCHAR(100)
+);
+
+CREATE TABLE notaFiscal(
+    id_notaFiscal INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    numeroNF NUMERIC(20),
+    dataEmissao DATE(),
+    CNPJ VARCHAR(50)
+);
+
+CREATE TABLE pagamento(
+    id_pagamento INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    valorTotal NUMERIC(100)
+);
+
+CREATE TABLE pedido(
+    id_pedido INT NOT NULL PRIMARY KEY 
+               GENERATED always AS IDENTITY(START WITH 1, increment BY 1),
+    qntItemPedido NUMERIC(500),
+    horaPedido TIME().
+    dataPedido DATE(),
+    enderecoEntrega  VARCHAR(200)
+);

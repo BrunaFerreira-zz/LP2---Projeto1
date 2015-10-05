@@ -1,0 +1,31 @@
+Sun Oct 04 19:45:14 BRT 2015 : Apache Derby Servidor de Rede - 10.10.2.0 - (1582446) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+----------------------------------------------------------------
+Sun Oct 04 19:45:14 BRT 2015:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância a816c00e-0150-3507-c994-ffff96fb8249
+no diretório de banco de dados /home/gustavo/Área de Trabalho/Bruna/Projeto Final/Etapa1 - CRUD/projetoDB1 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b14
+user.dir=/home/gustavo/glassfish-4.1/javadb
+os.name=Linux
+os.arch=amd64
+os.version=3.13.0-63-generic
+derby.system.home=/home/gustavo/Área de Trabalho/Bruna/Projeto Final/Etapa1 - CRUD
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Oct 04 19:45:23 BRT 2015:
+Encerrando a instância a816c00e-0150-3507-c994-ffff96fb8249
+Sun Oct 04 19:45:23 BRT 2015 Thread[DRDAConnThread_3,5,main] (DATABASE = projetoDB1), (DRDAID = {2}), Banco de dados 'projetoDB1' fechado.
+----------------------------------------------------------------
+Sun Oct 04 19:45:50 BRT 2015:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância 560740aa-0150-3507-c994-ffff96fb8249
+no diretório de banco de dados /home/gustavo/Área de Trabalho/Bruna/Projeto Final/Etapa1 - CRUD/projetoDB1 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b14
+user.dir=/home/gustavo/glassfish-4.1/javadb
+os.name=Linux
+os.arch=amd64
+os.version=3.13.0-63-generic
+derby.system.home=/home/gustavo/Área de Trabalho/Bruna/Projeto Final/Etapa1 - CRUD
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
